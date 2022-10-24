@@ -1,29 +1,35 @@
 body {
     margin-top: 0;
-    background-color: #8BBCCC;
+    background-color: #bee2f0;
     font-family: 'Merriweather', serif;
     padding-top: 50px;
 }
 
 h1 {
     /* font-style: italic; */
-    font-family: 'Sacramento', cursive;   
-    margin-bottom: 0px;
+    size: 5.625rem;  
+    padding: 50px auto 0 auto;
+    margin-bottom: 0;
 }
 
 #div1 {
-    padding-left: 200px;
+    padding-left: 170px;
     display: inline-block;
     font-family: 'Sacramento', cursive;
-    font-size: 25px;
+    font-size: 1.875rem; /*to make size dynamic --> 16px = 100% mate 30px = 30 * 100 / 16 = 187.5% = 1.875em*/
+    color: rgb(226, 150, 49);
+    /* line-height: 2; */
 }
 
 h2 {
     font-family: 'Montserrat', sans-serif;
+    color: rgb(0, 7, 85);
+    font-weight: normal;
 }
 
 h3 {
     font-family: 'Montserrat', sans-serif;
+    color: rgb(0, 7, 85);
 }
 
 .hr2 {
@@ -34,9 +40,14 @@ h3 {
     display: block;
 }
 
+a {
+    color: rgb(0, 7, 85);
+}
+
 #p1 {
     text-align: center;
     margin-top: 0px;
+    font-weight: normal;
 }
 
 #cloud1 {
@@ -54,7 +65,7 @@ h3 {
 
 #cloud2 {
     position: relative;
-    left: 800px;
+    left: 820px;
     top: 50px;
 }
 
@@ -71,4 +82,37 @@ h3 {
 
 .profile {
     margin-top: 200px;
+}
+
+.d1 {
+    text-align: center;
+}
+
+.contact-me {
+    position: relative;
+    line-height: 0.5;
+    top: 50px;
+}
+
+.d2 {
+    margin-top: 50px;
+}
+
+.temp1 {
+    position: relative;
+    left: 180px;
+    bottom: 63px;
+    display: inline-block;
+}
+.temp2 {
+    position: relative;
+    left: 290px;
+    bottom: 65px;
+    display: inline-block;
+}
+.temp3 {
+    position: relative;
+    left: 390px;
+    bottom: 70px;
+    display: inline-block;
 }
